@@ -54,8 +54,8 @@
             </div>
         </div>
     </nav>
-
-    <div class="container bg-white" style="padding: 26.7%;">
+    <br />
+    <div class="container bg-white" style="padding: 18.5%;">
         <form action="result.php" method="POST">
             <div class="position-absolute top-50 start-50 translate-middle bg-white">
                 <h2>Your information: </h2>
@@ -66,10 +66,9 @@
                     <input type="text" class="form-label" id="name" value="<?php echo $name; ?>" disabled>
                 </div>
                 <div class="mb-4">
-                    <label for="age" class="form-label">Your birth date: </label>
-                    <input type="text" class="form-label" id="age" value="<?php echo $b->getDate($date) . 'days'; ?>" disabled>
+                    <label for="age" class="form-label">Number of days passed since your birth: </label>
+                    <input type="text" class="form-label" id="age" value="<?php echo $b->getDate($date) . ' days'; ?>" disabled>
                 </div>
-                <br />
                 <br />
                 <div>
                     <h2>Your biorhythms: </h2>
@@ -108,7 +107,7 @@
     </div>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <span class="text-muted">Copyright © 2022 ADRIÀ CARA ROCA & PAU SERRA COMAJOAN</span>
+        <span class="text-muted mx-auto">Copyright © 2022 ADRIÀ CARA ROCA & PAU SERRA COMAJOAN</span>
     </footer>
 
 </body>

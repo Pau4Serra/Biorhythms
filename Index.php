@@ -32,7 +32,7 @@
         </div>
     </nav>
 
-    <div class="container bg-white" style="padding: 18.7%;">
+    <div class="container bg-white" style="padding: 18.5%;">
         <div class="position-absolute top-50 start-50 translate-middle">
             <form class="bg-white" action="Resultat.php" method="POST">
                 <div class="mb-4">
@@ -40,19 +40,18 @@
                     <br />
                     <input type="text" class="form-label" id="name" name="name">
                 </div>
-                <br />
                 <div class="mb-4">
                     <h2 class="" for="age" class="form-label">Your birth date: </h2>
                     <br />
                     <input type="date" class="form-label" id="age" name="age">
                 </div>
-                <button type="submit" class="btn btn-primary end-0">Submit</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </div>
 
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <span class="text-muted"> Copyright © 2022 ADRIÀ CARA ROCA & PAU SERRA COMAJOAN</span>
+        <span class="text-muted mx-auto"> Copyright © 2022 ADRIÀ CARA ROCA & PAU SERRA COMAJOAN</span>
     </footer>
 
 </body>
